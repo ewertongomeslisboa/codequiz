@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Quiz 🧠</title>
+    <!--Link CSS files-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <!-- Header section containing navbar and logo -->
+      <header class="header">
+        <a href="#" class="logo">Code Quiz 🧠</a>
+
+        <nav class="navbar">
+          <a href="#" class="active">Início</a>
+          <a href="#">Sobre</a>
+          <a href="#">Contato</a>
+        </nav>
+      </header>
+
+      <!-- Another section for home content -->
+
+      <div class="container">
+        <section class="quiz-section">
+          <div class="quiz-box">
+            <h1>Code Quiz 🧠</h1>
+            <div class="quiz-header">
+              <span>Bem vindo ao Code Quiz 🧠</span>
+              <span class="header-score">Pontuação: 0 / 5</span>
+            </div>
+
+            <h2 class="question-text"></h2>
+
+            <div class="option-list"></div>
+
+            <div class="quiz-footer">
+              <span class="questions-total">1 de 5 questões</span>
+              <button class="next-btn">Próximo</button>
+            </div>
+          </div>
+
+          <div class="result-box">
+            <h2>Resultado do Quiz</h2>
+            <div class="percentage-container">
+              <div class="circular-progress">
+                <span class="progress-value">0%</span>
+              </div>
+              <span class="scores-text">Sua pontuação é: 0 de 5</span>
+            </div>
+            <div class="buttons">
+              <button class="tryAgain-btn">Tente novamente</button>
+              <button class="goHome-btn">início</button>
+            </div>
+          </div>
+        </section>
+        <section class="home">
+          <div class="home-content">
+            <h1>Code Quiz 🧠</h1>
+            <p>
+              🎉 Bem-vindo ao Desafio da programação 🖥️ Teste seus conhecimentos
+              sobre programação e descubra dicas valiosas para aprender a codar.
+              Responda às perguntas, aprenda com a IA e torne-se um especialista
+              no assunto! 📌 Pronto para começar? Clique no botão abaixo e
+              desafie-se! 🚀
+            </p>
+            <button class="start-btn">Iniciar Quiz</button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Division for Quiz guide popup-->
+    <div class="popup-info">
+      <h2>Sobre o Quiz</h2>
+      <span class="info"
+        >📌 Como Funciona? Você responderá a uma série de perguntas sobre
+        programação. No final, nossa IA avaliará seu nível de conhecimento e
+        fornecerá recomendações personalizadas.</span
+      >
+      <span class="info"
+        >✅ Regras do Quiz Leia cada pergunta com atenção. Escolha a alternativa
+        que considerar correta. Você pode revisar suas respostas antes de
+        finalizar.</span
+      >
+      <span class="info"
+        >🏆 Como é Avaliado? Cada resposta correta soma pontos. No final, você
+        verá seu desempenho e dicas para melhorar sua segurança.</span
+      >
+      <span class="info"
+        >🔒 Privacidade e Segurança Suas respostas e dados fornecidos são
+        protegidos. Não compartilhamos suas informações com terceiros.</span
+      >
+
+      <!--Buttons for starting quiz  -->
+      <div class="btn-group">
+        <button class="info-btn exit-btn">Sair</button>
+        <a href="#" class="info-btn continue-btn">Continue</a>
+      </div>
+    </div>
+
+    <!--Link Javascript files-->
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
+    3
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2025 Tonzera(Ewerton Gomes)</p>
+        <ul class="social-icons">
+          <li><a href="#" class="icon-link">Facebook</a></li>
+          <li><a href="#" class="icon-link">Twitter</a></li>
+          <li><a href="#" class="icon-link">Instagram</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
